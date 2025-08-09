@@ -1,0 +1,1 @@
+import React from 'react'; export default function Workflows(){ return (<div><h3>Your Workflows</h3><p>Track progress here.</p></div>); }

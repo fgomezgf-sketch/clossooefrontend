@@ -1,0 +1,1 @@
+import React from 'react'; export default function Saved(){ return (<div><h3>Saved Homes</h3><p>Your favorites will appear here.</p></div>); }

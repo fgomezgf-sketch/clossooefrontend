@@ -1,0 +1,1 @@
+import React from 'react'; export default function Documents(){ return (<div><h3>Document Center</h3><p>Download generated documents here.</p></div>); }
