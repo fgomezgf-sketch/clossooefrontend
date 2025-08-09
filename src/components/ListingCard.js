@@ -1,0 +1,1 @@
+import React from 'react'; export default function ListingCard({l}){ return (<div className='card'><img src={l?.photos?.[0]?.href || '/assets/card_placeholder.jpg'} alt=''/><h3>{l?.location?.address?.line || 'Address'}</h3><p className='price'>{l?.price? '$'+Number(l.price).toLocaleString(): 'Price N/A'}</p></div>);}

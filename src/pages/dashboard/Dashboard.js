@@ -1,0 +1,1 @@
+import React from 'react'; import Sidebar from '../../components/DashboardSidebar'; export default function Dashboard(){ return (<Sidebar><div><h2>Dashboard</h2><p>Workflows and documents will appear here.</p></div></Sidebar>);}

@@ -1,0 +1,1 @@
+import React from 'react'; import { Link } from 'react-router-dom'; export default function Navbar(){ return (<nav className='nav'><div className='nav-left'><Link to='/' className='brand'>Closied</Link><Link to='/search' className='nav-link'>Search</Link></div><div className='nav-right'><Link to='/login' className='btn'>Sign in</Link></div></nav>);}

@@ -1,0 +1,1 @@
+import React from 'react'; export default function WorkflowPage(){ return (<div><h2>Workflows</h2><p>Manage your buying workflow here.</p></div>);}

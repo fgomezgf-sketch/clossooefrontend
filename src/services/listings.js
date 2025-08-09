@@ -1,0 +1,1 @@
+import api from './api'; export async function getLatest(){ const res = await api.get('/listings'); return res.data.results || []; } export async function getByPostal(postal){ const res = await api.get('/listings', { params:{ postal_code: postal } }); return res.data.results || []; }
