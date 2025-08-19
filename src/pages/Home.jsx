@@ -49,10 +49,10 @@ export default function Home(){
   }
 
   const mock = [
-    { id:'m1', img:'https://source.unsplash.com/400x300/?house,modern', address:'123 Oak Ave, Austin, TX', price:'$450,000', beds:3, baths:2, sqft:1800 },
-    { id:'m2', img:'https://source.unsplash.com/400x300/?villa,pool', address:'54 Ocean Dr, Miami, FL', price:'$1,250,000', beds:5, baths:4, sqft:4200 },
-    { id:'m3', img:'https://source.unsplash.com/400x300/?cottage,house', address:'9 Maple Ln, Asheville, NC', price:'$320,000', beds:2, baths:1, sqft:900 },
-    { id:'m4', img:'https://source.unsplash.com/400x300/?townhouse,city', address:'88 Pine St, Seattle, WA', price:'$780,000', beds:4, baths:3, sqft:2100 },
+    { id:'m1', img:'https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg', address:'123 Oak Ave, Austin, TX', price:'$450,000', beds:3, baths:2, sqft:1800 },
+    { id:'m2', img:'https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg', address:'54 Ocean Dr, Miami, FL', price:'$1,250,000', beds:5, baths:4, sqft:4200 },
+    { id:'m3', img:'hhttps://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg', address:'9 Maple Ln, Asheville, NC', price:'$320,000', beds:2, baths:1, sqft:900 },
+    { id:'m4', img:'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg', address:'88 Pine St, Seattle, WA', price:'$780,000', beds:4, baths:3, sqft:2100 },
   ]
 
   const show = listings.length ? listings.slice(0,4) : mock
