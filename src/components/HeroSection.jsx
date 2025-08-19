@@ -19,8 +19,8 @@ export default function HeroSection({ onSearch }) {
   return (
     <div className='max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-8'>
       <div className='flex-1'>
-        <h1 className='text-4xl md:text-5xl font-extrabold text-closetDark mb-4'>Sell or buy your home — without the 6% agent fee.</h1>
-        <p className='text-lg text-gray-600 mb-6'>Closied guides you step-by-step through offers, inspections, escrow, and closing — so you can confidently buy or sell without an agent.</p>
+        <h1 className='text-4xl md:text-5xl font-extrabold text-closetDark mb-4'>Don't let 3% keep you from buying your dream home.</h1>
+        <p className='text-lg text-gray-600 mb-6'>Closied guides you step-by-step through offers, inspections, escrow, and closing — so you can confidently buy without an agent.</p>
         <form onSubmit={submit} className='flex gap-2 max-w-xl'>
           <input value={zip} onChange={e=>setZip(e.target.value)} placeholder='Enter ZIP code' className='flex-1 px-4 py-3 border rounded-l-md' />
           <button className='bg-closetBlue px-4 py-3 text-white rounded-r-md' type='submit'>Search</button>
