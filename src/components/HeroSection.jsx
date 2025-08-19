@@ -29,7 +29,7 @@ export default function HeroSection({ onSearch }) {
       </div>
       <div className='w-full md:w-1/2 hidden md:block'>
         <div className='bg-gradient-to-br from-sky-200 to-sky-400 rounded-2xl h-64 flex items-center justify-center'>
-          <img src='https://source.unsplash.com/600x400/?house,real-estate' alt='hero' className='rounded-lg shadow-lg' />
+          <img src='https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg' alt='hero' className='rounded-lg shadow-lg' />
         </div>
       </div>
     </div>
